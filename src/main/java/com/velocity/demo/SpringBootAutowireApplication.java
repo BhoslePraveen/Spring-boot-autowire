@@ -13,8 +13,6 @@ public class SpringBootAutowireApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(SpringBootAutowireApplication.class, args);
-		EmployeeService bean = context.getBean(EmployeeService.class);
-		bean.getConfigDetails();
 	}
 
 }
